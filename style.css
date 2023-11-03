@@ -1,0 +1,41 @@
+body {
+  max-width: 90%;
+}
+
+.logo {
+  width: 200px;
+}
+
+.img-row img {
+  width: 100%;
+}
+
+.row {
+  margin-inline: 10px;
+  padding: 10px;
+}
+
+#genres-btn {
+  width: 200px;
+}
+
+.avatar-badge i {
+  border: solid 2px white;
+  border-radius: 50%;
+  position: absolute;
+  width: 25px;
+  top: 155px;
+  background-color: black;
+  left: 15px;
+}
+
+#edit-button {
+  width: 100px;
+  border: solid 2px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.button-box {
+  width: 100%;
+}
