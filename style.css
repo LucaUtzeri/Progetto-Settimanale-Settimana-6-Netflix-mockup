@@ -48,3 +48,13 @@ body {
 .button-box {
   width: 100%;
 }
+
+.bi-bell-fill,
+.bi-search,
+.bi-facebook,
+.bi-instagram,
+.bi-twitter-x,
+.bi-youtube {
+  font-size: 30px;
+  color: white;
+}
