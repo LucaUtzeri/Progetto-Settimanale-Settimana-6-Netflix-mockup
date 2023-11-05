@@ -44,10 +44,10 @@
               <a class="nav-link text-light" aria-disabled="true">My List</a>
             </li>
           </ul>
-          <form class="d-flex text-end p-5" role="search">
+          <form class="d-flex text-end" role="search">
             <input
               class="form-control me-2 collapse collapse-horizontal bg-dark"
-              id="collapseWidthExample"
+              id="searchBar"
               type="search"
               placeholder="Search"
               aria-label="Search"
@@ -56,9 +56,9 @@
               class="btn btn-dark justify-content-center my-auto"
               type="button"
               data-bs-toggle="collapse"
-              data-bs-target="#collapseWidthExample"
+              data-bs-target="#searchBar"
               aria-expanded="false"
-              aria-controls="collapseWidthExample"
+              aria-controls="searchBar"
             >
               <i class="bi bi-search mx-2"></i>
             </div>
@@ -69,7 +69,11 @@
               style="width: 50px; height: 50px"
               alt=""
             />
-            <button class="col-2 dropdown w-50 text-start pe-5 py-1 bg-dark border border-light" type="button">
+            <button
+              id="profile-button"
+              class="col-2 dropdown text-start pe-5 py-1 bg-dark border border-light"
+              type="button"
+            >
               <a
                 class="nav-link dropdown-toggle text-light"
                 href="#"
@@ -79,9 +83,9 @@
               >
                 <img src="./Netflix-assets/Netflix-assets/assets/avatar.png" style="width: 50px; height: 50px" alt="" />
               </a>
-              <ul class="dropdown-menu bg-dark border-light w-50">
+              <ul class="dropdown-menu bg-dark border-light">
                 <li><a class="dropdown-item text-light" href="#">Switch Account</a></li>
-                <li><a class="dropdown-item text-light" href="#profile.html">Profile Settings</a></li>
+                <li><a target="_self" class="dropdown-item text-light" href="/profile.html">Profile Settings</a></li>
                 <li><a class="dropdown-item text-light" href="#">Customer service</a></li>
                 <li><a class="dropdown-item text-danger" href="#">Log Out</a></li>
               </ul>
@@ -95,7 +99,7 @@
         <h1 class="fs-2">TV Shows</h1>
       </div>
       <div class="col-1 text-start my-5">
-        <button id="genres-btn" class="col-2 dropdown w-50 text-start pe-5 py-2 bg-dark border border-light">
+        <button id="genres-btn" class="col-2 dropdown text-start pe-5 py-2 bg-dark border border-light">
           <a
             class="nav-link dropdown-toggle text-light"
             href="#"

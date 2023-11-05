@@ -19,8 +19,12 @@ body {
   padding: 10px;
 }
 
+#profile-button {
+  width: 100px;
+}
+
 #genres-btn {
-  width: 200px;
+  width: 60%;
 }
 
 .avatar-badge i {
@@ -31,6 +35,7 @@ body {
   top: 155px;
   background-color: black;
   left: 15px;
+  cursor: pointer;
 }
 
 #edit-button {
